@@ -224,10 +224,10 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage: `url(${heroBackground})`,
-            filter: "brightness(0.8)",
+            filter: "brightness(0.92)",
           }}
         />
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-black/20" />
         <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-black/30 to-transparent" />
         <div
           className="relative z-10 mx-auto flex w-full max-w-5xl flex-col items-center text-center"
